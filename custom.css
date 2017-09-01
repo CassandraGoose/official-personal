@@ -1,0 +1,61 @@
+.opa {
+  opacity: 0.9;
+}
+
+.tag {
+  display: block;
+  width: 100%;
+  margin: 5%;
+  height: auto;
+}
+
+.hello {
+  height: 50vh;
+  width: auto;
+}
+
+.blackdiv {
+  width: auto;
+  height: 70vh;
+  background-color: black;
+}
+
+.extra-right {
+  padding-right: 3%;
+}
+
+.extra-margin {
+  margin-right: 8%;
+  margin-left: 8%;
+}
+
+.above-hello {
+  height: 30vh;
+}
+
+.blank-div {
+  width: auto;
+  height: 30vh;
+}
+
+.contact {
+  width: auto;
+  height: 100vh;
+  padding-top: 15vh;
+}
+
+.view {
+  height: 100vh;
+}
+
+.view-pad {
+  padding-top: 3em;
+}
+
+a {
+  color: black;
+}
+
+nav {
+  background-color: white;
+}
