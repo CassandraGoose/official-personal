@@ -1,8 +1,10 @@
 html {
-  background-image: url('./images/gradient1.png');
+  /*background-image: url('./images/gradient1.png');*/
+  background-color: #f0eff5;
   background-size: cover;
   background-attachment:fixed;
 }
+
 .opa {
   opacity: 0.9;
 }
@@ -62,7 +64,7 @@ a {
 }
 
 nav {
-  background-color: white;
+  background-color: #f0eff5;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -70,5 +72,5 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .the-skill {
-  color: white !important;
+  color: #f0eff5 !important;
 }

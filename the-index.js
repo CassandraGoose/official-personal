@@ -1,4 +1,16 @@
 $(document).ready(function() {
+
+  console.static("It's like everyone tells a story about")
+  console.static("themselves inside their own head.")
+  console.static("Always. All the time.");
+  console.static("That story makes you what you are.")
+  console.static("We build ourselves out of that story.")
+  console.static("(Patrick Rothfuss)")
+
+
+  console.log('Do you need some color in your life?')
+  console.log('feel free to try gradientMe()')
+
   $.scrollify({
     section: ".view",
     //sectionName:false,
