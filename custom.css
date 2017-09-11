@@ -65,10 +65,11 @@ a {
 
 nav {
   background-color: #f0eff5;
+  padding: 2%;
 }
 
 h1, h2, h3, h4, h5, h6, p {
-  color: black !important;
+  color: black;
 }
 
 .the-skill {
@@ -87,6 +88,12 @@ h1, h2, h3, h4, h5, h6, p {
   }
 }
 
+@media only screen and (max-width: 767px) {
+  .blackdiv {
+    height: auto;
+    padding-bottom: 5%;
+  }
+}
 @media only screen and (max-width: 500px) {
   .text-mobile {
     margin: 5%;
