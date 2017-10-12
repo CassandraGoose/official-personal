@@ -119,17 +119,20 @@ h1, h2, h3, h4, h5, h6, p {
     margin-left: 5%;
   }
   nav {
-    margin-top: 15%;
+    margin-top: 1%;
     padding-left: 0;
     margin-left: 0;
   }
 }
 
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   .really-mobile {
     font-size: 8pt;
     margin-left: 0 !important;
+  }
+  #topheader {
+    top: 0;
   }
   .level-item {
     margin: 0;
@@ -139,4 +142,8 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
     margin: 0;
   }
+  #white-text {
+    font-size: 16pt;
+  }
+
 }
