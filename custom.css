@@ -5,11 +5,11 @@ html {
   background-attachment:fixed;
 }
 
-#tab-content p {
+#tab-content figure {
   display: none;
 }
 
-#tab-content p.is-active {
+#tab-content figure.is-active {
   display: block;
 }
 
