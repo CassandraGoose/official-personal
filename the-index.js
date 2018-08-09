@@ -1,15 +1,15 @@
 $(document).ready(function() {
 
-  console.static("It's like everyone tells a story about")
-  console.static("themselves inside their own head.")
-  console.static("Always. All the time.");
-  console.static("That story makes you what you are.")
-  console.static("We build ourselves out of that story.")
-  console.static("(Patrick Rothfuss)")
-
-
   console.log('Do you need some color in your life?')
   console.log('feel free to try gradientMe()')
+
+  $('#tabs li').on('click', function() {
+    var tab = $(this).data('tab')
+    $('#tabs li').removeClass('is-active')
+    $(this).addClass('is-active')
+    $('#tab-content p').removeClass('is-active')
+    $('p[data-content="' + tab + '"]').addClass('is-active')
+  });
 
   $.scrollify({
     section: ".view",
