@@ -4,6 +4,15 @@ html {
   background-size: cover;
   background-attachment:fixed;
 }
+@font-face {
+  font-family: chasingEmbers;
+  src: url('./fonts/chasingEmbers.ttf');
+}
+
+a {
+  font-size: 2em;
+  font-family: chasingEmbers;
+}
 
 #view-1 {
   background-color: #25a792;
@@ -30,6 +39,10 @@ nav#topheader.level.is-mobile {
   padding: 0;
 }
 
+.larger-text {
+  font-size: 2em;
+  margin: 2%;
+}
 
 nav#stickyheader.level.is-mobile {
   padding: 0;
