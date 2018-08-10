@@ -34,12 +34,9 @@ nav#topheader.level.is-mobile {
   padding: 0;
 }
 
-.level-item {
-  padding: .5%;
-}
-
 .is-active-nav {
   background-color: #25a792;
+  padding: 2%;
 }
 
 #tab-content div.is-active {
@@ -61,12 +58,6 @@ nav#topheader.level.is-mobile {
   height: 50vh;
   width: auto;
 }
-
-/* .blackdiv {
-  width: auto;
-  height: 70vh;
-  background-color: black;
-} */
 
 .extra-right {
   padding-right: 3%;
