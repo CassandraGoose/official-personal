@@ -7,8 +7,9 @@ $(document).ready(function() {
     var tab = $(this).data('tab')
     $('#tabs li').removeClass('is-active')
     $(this).addClass('is-active')
-    $('#tab-content figure').removeClass('is-active')
-    $('figure[data-content="' + tab + '"]').addClass('is-active')
+    $('#tab-content div').removeClass('is-active')
+    $('#tab-content div').removeClass('is-flex')
+    $('div[data-content="' + tab + '"]').addClass('is-active')
   });
 
   $.scrollify({

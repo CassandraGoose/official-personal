@@ -5,12 +5,12 @@ html {
   background-attachment:fixed;
 }
 
-#tab-content figure {
+#tab-content div {
   display: none;
 }
 
-#tab-content figure.is-active {
-  display: block;
+#tab-content div.is-active {
+  display: flex;
 }
 
 .opa {
@@ -85,6 +85,13 @@ h1, h2, h3, h4, h5, h6, p {
 }
 .the-skill {
   color: #f0eff5 !important;
+}
+
+.row-images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
 }
 
 @media only screen and (max-width: 585px) {
