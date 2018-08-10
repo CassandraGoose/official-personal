@@ -15,6 +15,7 @@ html {
 
 .tile-color {
   background-color: #f0eff5;
+  color: black;
 }
 
 .watercolor {
@@ -27,6 +28,10 @@ html {
 
 #tab-content div {
   display: none;
+}
+
+.is-active-nav {
+  background-color: #25a792;
 }
 
 #tab-content div.is-active {
