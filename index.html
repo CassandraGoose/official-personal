@@ -158,7 +158,7 @@ ccccclcccccclllcl:,'..:ccccccc:,';:;;'...''...,;'.    ..,;clooddddddddddl:cclc;c
 ...................................................................................... ....'''''.............''''''''''''''''''',,,,,,;;;;;;::;;;;:;;;:::::::;::::::::::cc:::c::c:::ccccccccccc:ccc::c
    ................................................................................ ......'.............'''....'''''''''''',,',,,,,,;;;;;;:;;;;;;;:::::::::;:::::::::::::::::::::::ccc::cc::::ccc::c
     .  ...........................................................................  ....................''.....'''''''''''',,',,,,,;;;;;;;;;;;;;;;;;;;;:::;;;::::::::::::::::::::::cc::::::::ccc:::c -->
-  <section class="view">
+  <section class="view watercolor">
 
     <div class="hero">
 
@@ -190,7 +190,7 @@ ccccclcccccclllcl:,'..:ccccccc:,';:;;'...''...,;'.    ..,;clooddddddddddl:cclc;c
 
   </section>
 
-  <section class="view view-pad">
+  <section class="view view-pad" id="view-1">
 
 
     <section class="container" id="home-view">
@@ -198,29 +198,37 @@ ccccclcccccclllcl:,'..:ccccccc:,';:;;'...''...,;'.    ..,;clooddddddddddl:cclc;c
       <div class="above-hello">
 
       </div>
-      <article class="message is-medium is-dark">
-        <div class="message-header">
-            Oh, hello. My name is Cass.
-        </div>
-        <div class="message-body">
-          I enjoy creating things, technology, eating cereal, and dogs. Depending on the time of day, I am a developer, a teacher, a musician, or an artist. I aim to leave others happier than when I found them.
-          <hr>
+      
+<div class="tile is-ancestor">
+    <div class="tile">
+      <div class="tile is-parent is-vertical">
+        <article class="tile is-child notification tile-color">
           <a target="_blank" href="https://im-cassandra-renee.tumblr.com/">
             <span>
               Check out my art-related learning adventures here.
             </span>
           </a>
-          <hr>
+        </article>
+        <article class="tile is-child notification tile-color">
           <a target="_blank" href="https://cassandra-presents.surge.sh">
             <span>
               Check out some of my presentations and lessons here.
             </span>
           </a>
-        </div>
-      </article>
-    </section>
+        </article>
+      </div>
+      <div class="tile is-parent">
+        <article class="tile is-child notification tile-color">
+          <p class="title">Oh, hello. My name is Cass.</p>
+          <p class="subtitle">I enjoy creating things, technology, eating cereal, and dogs. Depending on the time of day, I am a developer, a teacher,
+          a musician, or an artist. I aim to leave others happier than when I found them.</p>
+        </article>
+      </div>
+    </div>
+  </div>
   </section>
-  <section class="view view-pad">
+  </section>
+  <section class="view view-pad" id="view-2">
 
     <section class="blackdiv" id="about-view">
       <br>
@@ -329,10 +337,10 @@ ccccclcccccclllcl:,'..:ccccccc:,';:;;'...''...,;'.    ..,;clooddddddddddl:cclc;c
   </section>
 
 
-  <section class="container view view-pad" id="projects-view">
+  <section class="padding-projects view view-pad" id="projects-view">
     <br />
     <br>
-    <p class="title">PROJECTS</p>
+    <p class="title left-pad-title">PROJECTS</p>
     <div class="columns has-text-centered">
       <div class="column">
         <div class="card">
@@ -458,28 +466,18 @@ ccccclcccccclllcl:,'..:ccccccc:,';:;;'...''...,;'.    ..,;clooddddddddddl:cclc;c
       </div>
     </div>
 
-    <section class="view" id="contact-view">
+    <section class="view watercolor" id="contact-view">
 
       <section class="contact">
 
         <div class="columns">
-          <div class="column">
+          <div class="column left-pad-title">
             <p class=title>CONTACT</p>
             <br>
-            <div class="columns">
-              <div class="column">
-                <a href="https://www.linkedin.com/in/cassandra-torske" target="_blank"><img class="a-logo" src="/images/linkedin.svg" alt="linkedin"></a>
-              </div>
-              <div class="column">
-                <a href="https://www.github.com/cassandragoose" target="_blank"><img class="a-logo" src="/images/github.svg" alt="github"></a>
-              </div>
+            <div class="is-centered">
+                <a href="https://www.linkedin.com/in/cassandra-torske" target="_blank"><figure class="image maximum-image"><img src="/images/linkedin.svg" alt="linkedin"></figure></a>
+                <a href="https://www.github.com/cassandragoose" target="_blank"><figure class="image maximum-image"><img src="/images/github.svg" alt="github"></figure></a>
             </div>
-          </div>
-          <div class="column">
-
-          </div>
-          <div class="column">
-
           </div>
         </div>
       </section>

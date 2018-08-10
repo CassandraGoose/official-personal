@@ -5,6 +5,26 @@ html {
   background-attachment:fixed;
 }
 
+#view-1 {
+  background-color: #25a792;
+}
+
+#view-2 {
+  background-color: black;
+}
+
+.tile-color {
+  background-color: #f0eff5;
+}
+
+.watercolor {
+  background-image: url("./images/watercolor.jpg");
+}
+
+.left-pad-title {
+  padding-left: 5%;
+}
+
 #tab-content div {
   display: none;
 }
@@ -29,11 +49,11 @@ html {
   width: auto;
 }
 
-.blackdiv {
+/* .blackdiv {
   width: auto;
   height: 70vh;
   background-color: black;
-}
+} */
 
 .extra-right {
   padding-right: 3%;
@@ -54,7 +74,6 @@ html {
 }
 
 .contact {
-  width: auto;
   height: 100vh;
   padding-top: 15vh;
 }
@@ -94,6 +113,16 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-evenly;
 }
 
+#content-view {
+  background-color: #25a792;
+}
+
+.maximum-image {
+  padding: 1%;
+  max-height: 15%;
+  max-width: 15%;
+}
+
 @media only screen and (max-width: 585px) {
   .really-mobile {
     font-size: 14pt;
@@ -124,11 +153,6 @@ h1, h2, h3, h4, h5, h6, p {
   .blackdiv {
     height: auto;
     padding-bottom: 5%;
-  }
-  .a-logo {
-    max-height: 200px;
-    max-width: 200px;
-    margin-left: 15%;
   }
   .title {
     margin-left: 5%;
