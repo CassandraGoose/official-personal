@@ -22,10 +22,6 @@ html {
   background-image: url("./images/watercolor.jpg");
 }
 
-.left-pad-title {
-  padding-left: 5%;
-}
-
 #tab-content div {
   display: none;
 }
@@ -34,8 +30,16 @@ nav#topheader.level.is-mobile {
   padding: 0;
 }
 
+
+nav#stickyheader.level.is-mobile {
+  padding: 0;
+}
+
 .is-active-nav {
   background-color: #25a792;
+}
+
+.top-item {
   padding: 2%;
 }
 

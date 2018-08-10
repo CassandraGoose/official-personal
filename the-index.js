@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-  console.log('Do you need some color in your life?')
-  console.log('feel free to try gradientMe()')
-
   $('#tabs li').on('click', function() {
     var tab = $(this).data('tab')
     $('#tabs li').removeClass('is-active')
@@ -12,9 +9,16 @@ $(document).ready(function() {
     $('div[data-content="' + tab + '"]').addClass('is-active')
   });
 
+  $('nav .level-item').on('click', function() {
+    var navId = $(this).attr('id')
+    var navIdString = `#${navId}b`
+    $('nav .level-item').removeClass('is-active-nav')
+    $(this).addClass('is-active-nav')
+    $(navIdString).addClass('is-active-nav')
+  })
+
   $.scrollify({
     section: ".view",
-    //sectionName:false,
     scrollSpeed: 1100,
     after: function(i) {
       if (i === 2) {
