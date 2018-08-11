@@ -21,13 +21,18 @@ $(document).ready(function() {
     section: ".view",
     scrollSpeed: 1100,
     after: function(i) {
-      // want the nav to light up according to where you are the page too. 
-      // var scrollNavId = $(this).attr('id')
-      // var scrollNavIdString = `#${scrollNavId}`
-      // var scrollNavIdStringB = `#${scrollNavId}b`
-      // $('nav .level-item').removeClass('is-active-nav')
-      // $(scrollNavIdString).addClass('is-active-nav')
-      // $(scrollNavIdStringB).addClass('is-active-nav')
+      const currentView = $.scrollify.current().attr('id')
+      const matchNavToView = {
+        'view-1': 'nav1',
+        'view-2': 'nav2',
+        'projects-view': 'nav3',
+        'contact-view': 'nav4',
+      }
+      var scrollNavIdString = `#${matchNavToView[currentView]}`
+      var scrollNavIdStringB = `#${matchNavToView[currentView]}b`
+      $('nav .level-item').removeClass('is-active-nav')
+      $(scrollNavIdString).addClass('is-active-nav')
+      $(scrollNavIdStringB).addClass('is-active-nav')
       if (i === 2) {
         $.scrollify.setOptions({
           easing: "easeOutExpo"
