@@ -149,6 +149,7 @@ h1, h2, h3, h4, h5, h6, p {
 .content h3 {
   font-size: 2em;
 }
+
 .the-skill {
   color: #f0eff5 !important;
 }
@@ -160,8 +161,18 @@ h1, h2, h3, h4, h5, h6, p {
   justify-content: space-evenly;
 }
 
+.tools-row {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
 #content-view {
   background-color: #25a792;
+}
+
+.tool-image {
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .maximum-image {
