@@ -17,38 +17,38 @@ $(document).ready(function() {
     $(navIdString).addClass('is-active-nav')
   })
 
-  $.scrollify({
-    section: ".view",
-    scrollSpeed: 1100,
-    after: function(i) {
-      const currentView = $.scrollify.current().attr('id')
-      const matchNavToView = {
-        'view-1': 'nav1',
-        'view-2': 'nav2',
-        'projects-view': 'nav3',
-        'contact-view': 'nav4',
-      }
-      var scrollNavIdString = `#${matchNavToView[currentView]}`
-      var scrollNavIdStringB = `#${matchNavToView[currentView]}b`
-      $('nav .level-item').removeClass('is-active-nav')
-      $(scrollNavIdString).addClass('is-active-nav')
-      $(scrollNavIdStringB).addClass('is-active-nav')
-      if (i === 2) {
-        $.scrollify.setOptions({
-          easing: "easeOutExpo"
-        });
-      }
-    }
-  });
+  // $.scrollify({
+  //   section: ".view",
+  //   scrollSpeed: 1100,
+  //   after: function(i) {
+  //     const currentView = $.scrollify.current().attr('id')
+  //     const matchNavToView = {
+  //       'view-1': 'nav1',
+  //       'view-2': 'nav2',
+  //       'projects-view': 'nav3',
+  //       'contact-view': 'nav4',
+  //     }
+  //     var scrollNavIdString = `#${matchNavToView[currentView]}`
+  //     var scrollNavIdStringB = `#${matchNavToView[currentView]}b`
+  //     $('nav .level-item').removeClass('is-active-nav')
+  //     $(scrollNavIdString).addClass('is-active-nav')
+  //     $(scrollNavIdStringB).addClass('is-active-nav')
+  //     if (i === 2) {
+  //       $.scrollify.setOptions({
+  //         easing: "easeOutExpo"
+  //       });
+  //     }
+  //   }
+  // });
 
   $(".home-a").on('click', function() {
     $('html, body').animate({
-      scrollTop: $("#home-view").offset().top
+      scrollTop: $("#view-1").offset().top
     }, 1000)
   })
   $(".about-a").on('click', function() {
     $('html, body').animate({
-      scrollTop: $("#about-view").offset().top
+      scrollTop: $("#view-2").offset().top
     }, 1000)
   })
   $(".projects-a").on('click', function() {
